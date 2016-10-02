@@ -1,5 +1,6 @@
 ﻿try {
     var Spooky = require('spooky');
+    var require = patchRequire(require);
 } catch (e) {
     var Spooky = require('./lib/spooky');
 }
